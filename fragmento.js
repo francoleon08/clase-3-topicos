@@ -16,7 +16,7 @@ class ListaPeliculas extends HTMLElement {
         this.innerHTML = `
             <div>
                 <button id="anterior">Anterior</button>
-                <span>${this.peliculas[this.indiceActual]}</span>
+                <p>${this.peliculas[this.indiceActual]}</p>
                 <button id="siguiente">Siguiente</button>
             </div>
         `;
